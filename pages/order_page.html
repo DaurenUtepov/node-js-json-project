@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style.css">
+  
+    <title>order page</title>
+  </head>
+  <body>
+   
+    <header>
+      <div style="height: 100px;" class="container">
+          <div class="row h-100">
+              <div class="col-6 my-auto text-white text-center">                    
+                      <h4 >Your personal shop</h4> 
+                      <a id="orderHistory" class="btn text-white" href="http://localhost:5000/usersorders">Order history  <i class="fa fa-angle-double-right"></i></a>                  
+              </div>
+              <div class="col-4 my-auto text-center text-white">
+                <div id="overlayClick"><i class="fa fa-shopping-cart" style="font-size:36px"></i><span id="oderQuantity" style="font-size:36px"></span></div>
+              </div>
+              <div class="col-2 my-auto text-right text-white">
+                <div class="btn">
+                  <i id="logout" class="fa fa-sign-out" style="font-size:36px"></i>
+                </div> 
+              </div>
+              
+          </div>
+      </div>
+    </header>
+    <div class="container">
+      <div id="categoryID" class="btn-container d-flex justify-content-center">
+        
+      </div>
+  
+      <div id="productID" class="mt-5 d-flex flex-wrap justify-content-center">
+  
+      </div>
+    </div>
+    
+    <div id="overlay" >
+      <div id="text">
+        <div class="mb-4 d-flex justify-content-center"> 
+          <h4>ORDERS</h4>
+        </div>
+        <div id="oredeListID">
+
+        </div>
+        <div class="d-flex justify-content-center mt-4">
+          <button class="mr-4" id="sendToNode">SAVE</button>
+          <button id="close">CLOSE</button>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section>
+          <!-- Facebook -->
+          <a class="btn btn-primary" style="background-color: #3b5998;"href="#!">
+            <i class="fa fa-facebook-square"></i>
+          </a>
+    
+          <!-- Twitter -->
+          <a class="btn btn-primary" style="background-color: #55acee;"href="#!">
+            <i class="fa fa-twitter-square"></i>
+          </a>
+    
+          <!-- Google -->
+          <a class="btn btn-primary" style="background-color: #dd4b39;"href="#!">
+            <i class="fa fa-google-plus-square"></i>
+          </a>
+          
+          <!-- Instagram -->
+          <a class="btn btn-primary" style="background-color: #ac2bac;"href="#!">
+            <i class="fa fa-instagram"></i>
+          </a>
+    
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Copyright:
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="../order_page.js"></script>
+  </body>
+</html>
